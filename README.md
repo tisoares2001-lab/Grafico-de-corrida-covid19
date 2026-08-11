@@ -1,14 +1,14 @@
 # 📊 Gráfico de Corrida de Barras Animado: Análise de Dados da COVID-19
 
 ## 🚀 O que este projeto faz?
-Nesse projeto, eu utilizo dados públicos da COVID-19 (WHO - World Health Organization Data) para criar uma animação do tipo *Bar Chart Race* no aplicativo de design *Canva*(gráfico de corrida de barras), onde os países "correm" na linha do tempo (Eixo Y - Countries) conforme o número de casos acumulados aumenta ao longo dos meses e anos (Eixo x - Deaths).
+Nesse projeto, eu utilizo dados públicos da COVID-19 (WHO - World Health Organization Data) para criar uma animação do tipo *Bar Chart Race* no aplicativo de design *Canva* (gráfico de corrida de barras), onde os países "correm" na linha do tempo (Eixo Y - Countries) conforme o número de casos acumulados aumenta ao longo dos meses e anos (Eixo x - Deaths).
 
 ---
 
 ## 🛠️ Como o projeto foi desenvolvido?
 
 1. **Obtenção dos Dados:** Eu fiz a coleta de dados públicos e globais de saúde da COVID-19 (disponibilizados pela OMS / Kaggle) pelo próprio site, baixei em formato .CSV para começar os trabalhos.
-2. **Preparação do Ambiente:** Fiz a Instalação e uso da biblioteca **Pandas** no Python e no computador para manipulação e estruturação dos dados. O Pandas é a biblioteca de código aberto mais popular do Python para análise e manipulação de dados, por isso eu escolhi usar essa biblioteca.
+2. **Preparação do Ambiente:** Fiz a Instalação e uso da biblioteca **Pandas** no Python e no computador para manipulação e estruturação dos dados. O Pandas é uma biblioteca de código aberto mais popular do Python para análise e manipulação de dados, por isso eu escolhi usar essa biblioteca.
 3. **Checklist: Tratamento de Dados com Python (Pandas):**
    * Carregamento do arquivo bruto em formato CSV (`pd.read_csv`).
    * Seleção estratégica apenas das colunas essenciais que são relevantes para tal análise (`Date_reported`, `Country`, `Cumulative_cases`) para otimização da performance.
