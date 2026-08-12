@@ -1,5 +1,7 @@
 # 📊 Bar Chart Race: Análise de Dados COVID-19 (WHO)
 
+⚠️ **Status:** Em construção / Work in Progress
+
 ### 🎯 Atenção: Desafiando as limitações técnicas de ferramentas de visualização
 Ferramentas de design como o Canva são excelentes para *storytelling*, mas possuem restrições rígidas — como o limite de importação de 1.024 linhas e colunas. Como transformar um volume massivo de dados temporais brutos da OMS (Organização Mundial da Saúde) em um gráfico dinâmico e fluido sem travar o processo? Este projeto demonstra exatamente como utilizo **Python** para atuar como um motor de engenharia e processamento de dados, superando barreiras técnicas para entregar uma visualização de impacto.
 
